@@ -39,8 +39,7 @@ export default function TodoListItem({ todo, is_in_progress, id, priority }) {
                 </ListItem>
                 <Tooltip title="Mark Todo as Done" placement="top">
                     <Button
-                        onClick={toggleInProgress}
-                        >
+                        onClick={toggleInProgress}>
                         {is_in_progress ? "Done" : "UnDone"}             
                     </Button>
                 </Tooltip>

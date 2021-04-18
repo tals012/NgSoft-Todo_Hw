@@ -11,6 +11,7 @@ import Select from '@material-ui/core/Select';
 import InputLabel from '@material-ui/core/InputLabel';
 import FormControl from '@material-ui/core/FormControl';
 import Paper from '@material-ui/core/Paper';
+import Typewriter from 'react-simple-typewriter'
 
 function App() {
 
@@ -82,11 +83,22 @@ function App() {
             textAlign: "center",
               padding: "50px"
         }}>
-          <h1>Todo</h1>
+           <h1>Todo</h1>      
           <form>
             <TextField
               id="standard-basic"
-              label="Write a Todo Task"
+              label={<Typewriter
+                loop
+                cursor
+                cursorStyle='_'
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1000}
+                words={['Take the Dog Out', 'Morning Run', 'Check Firebase docs', 'Noon Meeting with the Stuff!']}
+                onLoop={(loopCount) =>
+                  console.log(`Just completed loop ${loopCount}`)
+                }
+              />}
               value={todoInput}
               onChange={(e) => {
                 setTodoInput(e.target.value);
