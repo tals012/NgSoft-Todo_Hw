@@ -1,4 +1,10 @@
+
 ## DEMO: https://tals012.github.io/NgSoft-Todo_Hw/
+
+For this task i used:
+
+![alt text](https://firebase.google.com/images/brand-guidelines/logo-built_white.png)
+
 
 To run the Project Use: `yarn start`
 
