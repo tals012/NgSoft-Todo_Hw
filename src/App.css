@@ -46,3 +46,14 @@ body {
 label + .MuiInput-formControl {
   min-width: 320px;
 }
+
+.cards{
+  display: flex;
+}
+
+.cards:hover{
+  background-color: #fff6fa;
+  border: 1px solid rgb(177, 177, 177);
+  transition: 0.3s;
+}
+

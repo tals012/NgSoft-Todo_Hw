@@ -23,8 +23,8 @@ export default function TodoListItem({ todo, is_in_progress, id, priority }) {
     return (
         <>
             <div
+                className="cards"
                 style={{
-                    display: "flex",
                     textDecoration: is_in_progress ? 'none' : 'line-through', // If is marked as Done, make a line-through the text
                 }}
             >
