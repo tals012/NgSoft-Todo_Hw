@@ -7,12 +7,15 @@ import './App.css';
 import DeleteOutlinedIcon from '@material-ui/icons/DeleteOutlined';
 
 export default function TodoListItem({ todo, is_in_progress, id, priority }) {
+
+    // Toggle the Progress (Done or Not Done yet)
     function toggleInProgress() {
         db.collection("new-todos").doc(id).update({
             is_in_progress: !is_in_progress,
         });
     }
 
+    // Delete the Todo 
     function deleteTodo() {
         db.collection("new-todos").doc(id).delete();
     }
@@ -22,13 +25,13 @@ export default function TodoListItem({ todo, is_in_progress, id, priority }) {
             <div
                 style={{
                     display: "flex",
-                    textDecoration: is_in_progress ? 'none' : 'line-through',
+                    textDecoration: is_in_progress ? 'none' : 'line-through', // If is marked as Done, make a line-through the text
                 }}
             >
                 <ListItem>
                     <ListItemText
                         primary={todo}
-                        secondary={is_in_progress ? "In Progress" : "Done."}
+                        secondary={is_in_progress ? "In Progress" : "Done."} // Change Text According to the Progress 
                     />
                     <ListItemText
                         primary={priority}
@@ -46,9 +49,7 @@ export default function TodoListItem({ todo, is_in_progress, id, priority }) {
                         onClick={deleteTodo}
                         style={{ color: "red" }}
                     >
-                                       <DeleteOutlinedIcon />
-
-
+                    <DeleteOutlinedIcon />
                 </Button>
                 </Tooltip>
             </div>
