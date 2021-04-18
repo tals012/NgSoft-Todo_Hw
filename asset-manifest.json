@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/NgSoft-Todo_Hw/static/css/main.d297b333.chunk.css",
+    "main.js": "/NgSoft-Todo_Hw/static/js/main.395ef5b7.chunk.js",
+    "main.js.map": "/NgSoft-Todo_Hw/static/js/main.395ef5b7.chunk.js.map",
+    "runtime-main.js": "/NgSoft-Todo_Hw/static/js/runtime-main.fd14df12.js",
+    "runtime-main.js.map": "/NgSoft-Todo_Hw/static/js/runtime-main.fd14df12.js.map",
+    "static/js/2.e5e34bc3.chunk.js": "/NgSoft-Todo_Hw/static/js/2.e5e34bc3.chunk.js",
+    "static/js/2.e5e34bc3.chunk.js.map": "/NgSoft-Todo_Hw/static/js/2.e5e34bc3.chunk.js.map",
+    "index.html": "/NgSoft-Todo_Hw/index.html",
+    "static/css/main.d297b333.chunk.css.map": "/NgSoft-Todo_Hw/static/css/main.d297b333.chunk.css.map",
+    "static/js/2.e5e34bc3.chunk.js.LICENSE.txt": "/NgSoft-Todo_Hw/static/js/2.e5e34bc3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fd14df12.js",
+    "static/js/2.e5e34bc3.chunk.js",
+    "static/css/main.d297b333.chunk.css",
+    "static/js/main.395ef5b7.chunk.js"
+  ]
+}
