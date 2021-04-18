@@ -3,7 +3,7 @@
 
 For this task i used:
 
-![alt text](https://firebase.google.com/images/brand-guidelines/logo-built_white.png)
+![alt text](https://firebase.google.com/images/brand-guidelines/logo-built_white.png) ![alt text](https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png)
 
 
 To run the Project Use: `yarn start`
