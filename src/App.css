@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+
+
+body {
+  font-family: Caveat, sans-serif;
+  font-size: 2rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.formControl {
+  min-width: 120;
+  background-color: "red";
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.MuiSelect-filled.MuiSelect-filled {
+  padding-right: 40px ;
+  margin-bottom: -8px;
+  min-width: 50px;
+  width: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.MuiFilledInput-root {
+  background-color: rgb(255 255 255 / 9%) !important;
+  border-left: 1px solid ghostwhite !important;
 }
 
-.App-link {
-  color: #61dafb;
+.MuiTypography-body1 {
+  font-family: Caveat, sans-serif !important;
+  font-size: 25px !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.MuiListItemText-multiline {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  width: 210px;
+}
+
+.MuiButton-containedPrimary {
+  color: #fff;
+  background-color: #3f51b5;
+  margin-left: 10px !important;
+  margin-top: 10px !important;
+}
+
+label + .MuiInput-formControl {
+  min-width: 320px;
 }
